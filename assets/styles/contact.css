@@ -1,0 +1,80 @@
+.contact-section {
+    background-color: #222222; 
+    padding: 80px 40px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-section h2 {
+    font-size: 3.5vw;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.contact-intro {
+    font-size: 1.2vw; 
+    color: #b0b0b0;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    text-align: left;
+    padding: 30px;
+    background-color: #333333;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    background-color: #444444;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    box-sizing: border-box; 
+}
+.form-group textarea {
+    resize: vertical; 
+}
+
+.contact-form .send-message-btn {
+    width: auto; 
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+.social-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #fff;
+}

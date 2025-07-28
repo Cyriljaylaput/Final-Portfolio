@@ -1,0 +1,24 @@
+.send-message-btn {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+.send-message-btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.send-message-btn:hover {
+    background-color: #555555;
+}
+
+.send-message-btn svg {
+    margin-left: 10px;
+}

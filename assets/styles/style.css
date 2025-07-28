@@ -1,0 +1,152 @@
+@import 'button.css';
+@import 'profile.css';
+
+
+@import 'navbar.css';
+@import 'heroes-section.css';
+@import 'service.css';
+@import 'work.css';
+@import 'contact.css';
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+
+.content-wrapper {
+    flex-grow: 1; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px 20px;
+    }
+
+    .nav-links {
+        margin-top: 15px;
+    }
+
+    .nav-links a {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+        justify-content: flex-start;
+        min-height: auto;
+    }
+
+    .text-content {
+        padding-right: 0;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+
+    .text-content h1 {
+        font-size: 6vw;
+    }
+
+    .text-content p {
+        font-size: 2.5vw;
+    }
+
+    .send-message-btn {
+        align-self: center;
+    }
+
+    .image-content {
+        width: 80%;
+        height: auto;
+        max-width: 300px;
+        margin-left: 0;
+    }
+
+    .blue-gradient-bg {
+        width: 100%;
+        height: 100%;
+        transform: translateX(0);
+        left: 0;
+        right: auto;
+    }
+
+    .services-section h2,
+    .work-section h2, 
+    .contact-section h2 { 
+        font-size: 6vw;
+    }
+
+    .service-item h3 {
+        font-size: 20px;
+    }
+
+    .service-item p {
+        font-size: 14px;
+    }
+
+    .contact-intro {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    .text-content h1 {
+        font-size: 8vw;
+    }
+
+    .text-content p {
+        font-size: 3.5vw;
+    }
+
+    .send-message-btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .services-grid,
+    .work-grid { 
+        grid-template-columns: 1fr;
+    }
+
+    .services-section h2,
+    .work-section h2,
+    .contact-section h2 {
+        font-size: 8vw;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    .contact-intro {
+        font-size: 3.5vw;
+    }
+}

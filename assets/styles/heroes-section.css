@@ -1,0 +1,33 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 40px;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh; 
+    box-sizing: border-box; 
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 40px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-content h1 {
+    font-size: 4vw;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1.5vw;
+    line-height: 1.6;
+    color: #b0b0b0;
+    margin-bottom: 40px;
+}
